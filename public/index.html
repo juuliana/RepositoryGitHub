@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Repositórios GitHub</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+            background-image: url(git.png);
+            color: #FFF;
+            width: 100%;
+        }
+        
+        *{  
+            outline: none;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        input{
+            width: 100%;
+            background: #a7878027;
+            border-radius: 10px;
+            border: 2px solid #FFF;
+            color: #FFF;
+            font-size: 20px;
+            padding: 15px;
+        }
+
+        form{
+            width: 100%;
+            max-width: 500px;
+            margin-right: 80px;
+            border: 5px solid #FFF;
+            border-radius: 10px;
+            background: #000;
+            opacity: 0.9;
+            padding: 142px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button{
+            margin-top: 10px;
+            border-radius: 10px;
+            border: 2px solid #FFF;
+            background: #2388e693;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 12px;
+        }
+
+        ul{
+            list-style: none;
+            margin:0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        li{
+            clear:both;
+            margin-top: 20px;
+        }
+
+        img{
+            width: 80px;
+            float: right;
+            margin-right: 10px;
+        }
+
+        #mega{
+            width: 300px;
+            height: 300px;
+        }
+
+        strong{
+            font-size: 20px;
+        }
+
+        p{
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <form id="repo-form">
+        <img id="mega" src="logogit1.png" alt="git">
+        <h1>Busque pelo Repositório</h1>
+        <input type="text" name="repository"/>
+        <button type="submit">Adicionar</button>
+    
+        <ul id="repo-list"></ul>
+    </form>
+    <script src="./bundle.js"></script>
+</body>
+</html>
