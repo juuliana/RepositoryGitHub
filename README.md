@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido no Curso JavaScript ES6 no Starter da Rocketseat, 
 
 ## Descrição
 
-O Babel.js é um compilados de JavaScript, ou seja, como o Node.js não consegue entender completamente o código ES6, utilizamos o Babel que verifica onde estamos trabalhando e realiza a compilação, fazendo com que o código funcione em todos os navegadores.
+O Babel.js é um compilador de JavaScript, ou seja, como o Node.js não consegue entender completamente o código ES6, utilizamos o Babel que verifica onde estamos trabalhando e realiza a compilação, fazendo com que o código funcione em todos os navegadores.
 
 Para fazermos uma busca dos repositórios existentes e públicos, utilizamos a API do GitHub, disponível na api.js do meu projeto.
 
@@ -25,6 +25,8 @@ Por fim, para uma melhor visualização e pesquisa, continuei com o projeto e pe
 ![Repositório](https://github.com/juuliana/RepositoryGitHub/blob/master/src/images/pesquisa.png?raw=true?raw=true)
 
 <br>
+
+Agora é só Acessar o repositório que estiver procurando e começar a codar!
 
 ### Para clonar o meu projeto:
   ```git clone "https://github.com/juuliana/RepositoryGitHub.git"```
